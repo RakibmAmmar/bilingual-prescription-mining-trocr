@@ -27,19 +27,39 @@ Lexicon-guided post-processing reduced CER by approximately 33.7%, reduced WER b
 - Built a medicine knowledge enrichment pipeline for strength, disease class, indication, frequency, and timing.
 - Generated bilingual Bangla-English patient-centric prescription summaries.
 
-## Future Research Direction: HCI and XR Extension
+## Future Research Direction: AI-Assisted XR/HCI Extension
 
-My future research goal is to extend this AI-based prescription understanding system into Human-Computer Interaction and XR. A possible direction is an AI-assisted gaze-guided AR interface that helps patients, pharmacists, or healthcare workers verify handwritten medicine names, understand dosage instructions, and reduce interpretation errors.
+Although this thesis focuses on AI-based prescription understanding, my future research goal is to move beyond backend OCR accuracy toward Human-Computer Interaction (HCI), 3D User Interfaces (3DUI), and Extended Reality (XR). The proposed future direction is to design and evaluate AI-assisted AR/VR interfaces that help people understand, verify, and safely act on medical information.
 
-Possible evaluation metrics:
+This direction is not limited to handwritten prescriptions. The current thesis provides the AI foundation for medical document understanding, while future XR/HCI research can extend it toward:
+
+- medication-safety training for pharmacy and nursing students;
+- AR-based explanation of printed, handwritten, or electronic medical instructions;
+- human-in-the-loop verification of uncertain AI-recognized medicine information;
+- gaze, hand gesture, touch, and voice-based multimodal interaction;
+- patient-centered medical information understanding for low-literacy, bilingual, or multilingual users.
+
+![Future XR/HCI Extension](assets/future_xr_hci_extension.png)
+
+### Possible Research Questions
+
+- How should XR systems present uncertain AI-recognized medical information so users can verify it accurately without increasing cognitive load?
+- Can VR medication-safety training improve task accuracy, confidence, and knowledge retention compared with traditional screen-based or paper-based training?
+- How do gaze-guided or hand-guided AR overlays affect user understanding of medication instructions, warnings, and timing information?
+- How can multimodal XR feedback reduce errors in high-accuracy healthcare tasks while supporting users with different skill levels?
+
+### Possible Evaluation Metrics
 
 - Medicine identification accuracy
 - Error correction rate
 - Task completion time
-- User confidence
 - SUS usability score
 - NASA-TLX cognitive load
-- User trust in AI recommendations
+- User confidence
+- Trust in AI recommendations
+- Knowledge retention after training
+
+This future direction aligns with HCI/XR research because it focuses not only on AI recognition, but also on how humans interact with, understand, verify, and trust AI-supported medical information.
 
 ## Privacy and Ethical Note
 
